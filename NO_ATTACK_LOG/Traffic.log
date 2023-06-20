@@ -1,0 +1,36 @@
+2023-06-19 20:42:47,814 INFO  SumoAmbassador - sumoConfig.updateInterval: 1000
+2023-06-19 20:42:47,814 INFO  SumoAmbassador - sumoConfig.sumoConfigurationFile: tiergarten.sumocfg
+2023-06-19 20:42:47,814 INFO  SumoAmbassador - sumoConfig.sumoConfigurationFile: tiergarten.sumocfg
+2023-06-19 20:42:47,819 INFO  SumoAmbassador - Simulation step size is 1.0 sec.
+2023-06-19 20:42:48,867 INFO  SumoVehicleTypesWriter - ./tmp/sumo/mosaic_types.add.xml file successfully written.
+2023-06-19 20:42:48,867 INFO  SumoAmbassador - Start Federate local
+2023-06-19 20:42:48,867 INFO  SumoAmbassador - Directory: ./tmp/sumo
+2023-06-19 20:42:49,879 INFO  SumoAmbassador - Process sumo: Loading net-file from 'tiergarten.net.xml' ... done (10ms).
+2023-06-19 20:42:49,880 INFO  SumoAmbassador - Process sumo: Loading additional-files from 'mosaic_types.add.xml' ... done (1ms).
+2023-06-19 20:42:49,880 INFO  SumoAmbassador - Process sumo: Loading done.
+2023-06-19 20:42:49,880 INFO  SumoAmbassador - Process sumo: Simulation version 1.17.0 started with time: 0.00.
+2023-06-19 20:42:49,882 WARN  TraciClientBridge - This SUMO Version SUMO 1.17.0 is currently not supported (but might work anyhow).
+2023-06-19 20:42:49,885 INFO  SumoAmbassador - Current API version of SUMO is 20 (=SUMO 1.16.*)
+2023-06-19 20:42:49,938 WARN  TrafficLightGetControlledJunctions - Could not return list of controlled junctions for traffic light. Not implemented in SUMO yet.
+2023-06-19 20:42:49,969 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_0" received at simulation time 1000000000 ns (subscribe=true)
+2023-06-19 20:42:49,969 INFO  SumoAmbassador - Adding new vehicle "veh_0" at simulation time 1000000000 ns (type=Autobot, routeId=0, laneId=0, departPos=0.00)
+2023-06-19 20:42:50,046 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_1" received at simulation time 10000000000 ns (subscribe=true)
+2023-06-19 20:42:50,051 INFO  SumoAmbassador - Adding new vehicle "veh_1" at simulation time 10000000000 ns (type=Autobot, routeId=0, laneId=0, departPos=0.00)
+2023-06-19 20:42:50,989 INFO  SumoAmbassador - Process sumo: Step #0.00 (0ms ?*RT. ?UPS, TraCI: 80ms, vehicles TOT 0 ACT 0 BUF 0)                      
+2023-06-19 20:42:50,989 ERROR SumoAmbassador - Process sumo: Warning: Vehicle 'veh_0' performs emergency stop at the end of lane '4068038_423839224_26704448_0' because of a red traffic light (decel=-13.89, offset=6.40), time=75.00.
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Closing SUMO connection
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: Step #80.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 2 ACT 2 BUF 0)                      
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: Simulation ended at time: 80.00
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: Reason: TraCI requested termination.
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: Performance: 
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Duration: 1.18s
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  TraCI-Duration: 1.16s
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Real time factor: 67.9117
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  UPS: 126.485569
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: Vehicles: 
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Inserted: 2
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Running: 2
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Waiting: 0
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo:  Emergency Stops: 1
+2023-06-19 20:42:51,057 INFO  SumoAmbassador - Process sumo: 
+2023-06-19 20:42:51,064 INFO  SumoAmbassador - Finished simulation

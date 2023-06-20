@@ -1,0 +1,23 @@
+2023-06-19 20:45:05,433 INFO  ROOT - Running Eclipse MOSAIC 23.0 on Java JRE v11.0.19 (Ubuntu)
+2023-06-19 20:45:05,562 INFO  MosaicStarter - Federate sumo: No port given. Using free port: 37507
+2023-06-19 20:45:05,573 INFO  FederationManagement - Start federation with id 'Tiergarten'
+2023-06-19 20:45:05,573 INFO  FederationManagement - Add ambassador/federate with id 'application'
+2023-06-19 20:45:05,574 INFO  FederationManagement - Add ambassador/federate with id 'environment'
+2023-06-19 20:45:05,574 INFO  FederationManagement - Add ambassador/federate with id 'mapping'
+2023-06-19 20:45:05,574 INFO  FederationManagement - Add ambassador/federate with id 'ns3'
+2023-06-19 20:45:05,574 INFO  FederationManagement - Deploying federate 'ns3' locally in ./tmp/ns3
+2023-06-19 20:45:05,930 INFO  FederationManagement - Starting federate 'ns3' locally in ./tmp/ns3
+2023-06-19 20:45:05,980 INFO  FederationManagement - Add ambassador/federate with id 'sumo'
+2023-06-19 20:45:05,980 INFO  FederationManagement - Deploying federate 'sumo' locally in ./tmp/sumo
+2023-06-19 20:45:05,981 INFO  FederationManagement - Starting federate 'sumo' locally in ./tmp/sumo
+2023-06-19 20:45:05,981 INFO  FederationManagement - Add ambassador/federate with id 'output'
+2023-06-19 20:45:05,981 INFO  OutputAmbassador - Initialize configuration of OutputAmbassador
+2023-06-19 20:45:06,444 INFO  OutputAmbassador - Registered output generator 'websocket' for messages [RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageReception, V2xMessageTransmission]. Update interval=1
+2023-06-19 20:45:06,444 INFO  OutputAmbassador - Registered output generator 'fileoutput' for messages [TrafficLightRegistration, RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageTransmission, V2xMessageReception]. Update interval=5
+2023-06-19 20:45:06,499 WARN  SQLiteReader - No roundabouts were found in the scenario database. Note that roundabouts in this scenario may be treated as ordinary crossings.
+2023-06-19 20:45:10,037 INFO  SequentialTimeManagement - Simulation ended after 140s of 140s (100%)
+2023-06-19 20:45:10,037 INFO  SequentialTimeManagement - Started: 2023-06-19 20:45:06
+2023-06-19 20:45:10,037 INFO  SequentialTimeManagement - Ended: 2023-06-19 20:45:10
+2023-06-19 20:45:10,038 INFO  SequentialTimeManagement - Duration: 00h 00m 03.438s (RTF: 40.00)
+2023-06-19 20:45:10,038 INFO  SequentialTimeManagement - 
+2023-06-19 20:45:10,038 INFO  SequentialTimeManagement - Simulation finished: 101
