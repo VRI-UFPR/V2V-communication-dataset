@@ -1,8 +1,0 @@
-2023-06-19 20:42:48,129 INFO  Ns3Ambassador - Connected to NS-3 Federate for reading on port 5011
-2023-06-19 20:42:48,140 INFO  Ns3Ambassador - Connected to NS-3 Federate for commands on port 44941
-2023-06-19 20:42:48,821 INFO  Ns3Ambassador - Init simulation with startTime=0.000,000,000 s, stopTime=80.000,000,000 s
-2023-06-19 20:42:49,982 INFO  Ns3Ambassador - Added vehicle ID[int=veh_0, ext=0] at position=CartesianPoint{x=41.11,y=93.64,z=0.00} time=2.000,000,000 s
-2023-06-19 20:42:50,055 INFO  Ns3Ambassador - Added vehicle ID[int=veh_1, ext=1] at position=CartesianPoint{x=41.11,y=93.64,z=0.00} time=11.000,000,000 s
-2023-06-19 20:42:51,056 INFO  Ns3Ambassador - removeNode ID[int=veh_0, ext=0] time=80.000,000,000 s
-2023-06-19 20:42:51,056 INFO  Ns3Ambassador - removeNode ID[int=veh_1, ext=1] time=80.000,000,000 s
-2023-06-19 20:42:51,064 INFO  Ns3Ambassador - Finished simulation

@@ -1,23 +1,21 @@
-2023-06-19 20:48:13,794 INFO  ROOT - Running Eclipse MOSAIC 23.0 on Java JRE v11.0.19 (Ubuntu)
-2023-06-19 20:48:13,919 INFO  MosaicStarter - Federate sumo: No port given. Using free port: 34193
-2023-06-19 20:48:13,928 INFO  FederationManagement - Start federation with id 'Tiergarten'
-2023-06-19 20:48:13,929 INFO  FederationManagement - Add ambassador/federate with id 'application'
-2023-06-19 20:48:13,929 INFO  FederationManagement - Add ambassador/federate with id 'environment'
-2023-06-19 20:48:13,930 INFO  FederationManagement - Add ambassador/federate with id 'mapping'
-2023-06-19 20:48:13,930 INFO  FederationManagement - Add ambassador/federate with id 'ns3'
-2023-06-19 20:48:13,930 INFO  FederationManagement - Deploying federate 'ns3' locally in ./tmp/ns3
-2023-06-19 20:48:14,197 INFO  FederationManagement - Starting federate 'ns3' locally in ./tmp/ns3
-2023-06-19 20:48:14,239 INFO  FederationManagement - Add ambassador/federate with id 'sumo'
-2023-06-19 20:48:14,240 INFO  FederationManagement - Deploying federate 'sumo' locally in ./tmp/sumo
-2023-06-19 20:48:14,240 INFO  FederationManagement - Starting federate 'sumo' locally in ./tmp/sumo
-2023-06-19 20:48:14,240 INFO  FederationManagement - Add ambassador/federate with id 'output'
-2023-06-19 20:48:14,240 INFO  OutputAmbassador - Initialize configuration of OutputAmbassador
-2023-06-19 20:48:14,680 INFO  OutputAmbassador - Registered output generator 'websocket' for messages [RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageReception, V2xMessageTransmission]. Update interval=1
-2023-06-19 20:48:14,680 INFO  OutputAmbassador - Registered output generator 'fileoutput' for messages [TrafficLightRegistration, RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageTransmission, V2xMessageReception]. Update interval=5
-2023-06-19 20:48:14,739 WARN  SQLiteReader - No roundabouts were found in the scenario database. Note that roundabouts in this scenario may be treated as ordinary crossings.
-2023-06-19 20:48:20,104 INFO  SequentialTimeManagement - Simulation ended after 140s of 140s (100%)
-2023-06-19 20:48:20,104 INFO  SequentialTimeManagement - Started: 2023-06-19 20:48:14
-2023-06-19 20:48:20,104 INFO  SequentialTimeManagement - Ended: 2023-06-19 20:48:20
-2023-06-19 20:48:20,105 INFO  SequentialTimeManagement - Duration: 00h 00m 05.267s (RTF: 26.00)
-2023-06-19 20:48:20,105 INFO  SequentialTimeManagement - 
-2023-06-19 20:48:20,105 INFO  SequentialTimeManagement - Simulation finished: 101
+2023-07-08 13:15:41,901 INFO  ROOT - Running Eclipse MOSAIC 23.0 on Java JRE v11.0.19 (Ubuntu)
+2023-07-08 13:15:42,052 INFO  MosaicStarter - Federate sumo: No port given. Using free port: 34303
+2023-07-08 13:15:42,063 INFO  FederationManagement - Start federation with id 'Tiergarten'
+2023-07-08 13:15:42,064 INFO  FederationManagement - Add ambassador/federate with id 'application'
+2023-07-08 13:15:42,064 INFO  FederationManagement - Add ambassador/federate with id 'environment'
+2023-07-08 13:15:42,065 INFO  FederationManagement - Add ambassador/federate with id 'mapping'
+2023-07-08 13:15:42,065 INFO  FederationManagement - Add ambassador/federate with id 'sns'
+2023-07-08 13:15:42,065 INFO  FederationManagement - Add ambassador/federate with id 'sumo'
+2023-07-08 13:15:42,065 INFO  FederationManagement - Deploying federate 'sumo' locally in ./tmp/sumo
+2023-07-08 13:15:42,067 INFO  FederationManagement - Starting federate 'sumo' locally in ./tmp/sumo
+2023-07-08 13:15:42,067 INFO  FederationManagement - Add ambassador/federate with id 'output'
+2023-07-08 13:15:42,068 INFO  OutputAmbassador - Initialize configuration of OutputAmbassador
+2023-07-08 13:15:42,635 INFO  OutputAmbassador - Registered output generator 'websocket' for messages [RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageReception, V2xMessageTransmission]. Update interval=1
+2023-07-08 13:15:42,636 INFO  OutputAmbassador - Registered output generator 'fileoutput' for messages [TrafficLightRegistration, RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageTransmission, V2xMessageReception]. Update interval=5
+2023-07-08 13:15:42,701 WARN  SQLiteReader - No roundabouts were found in the scenario database. Note that roundabouts in this scenario may be treated as ordinary crossings.
+2023-07-08 13:15:44,489 INFO  SequentialTimeManagement - Simulation ended after 140s of 140s (100%)
+2023-07-08 13:15:44,489 INFO  SequentialTimeManagement - Started: 2023-07-08 13:15:42
+2023-07-08 13:15:44,490 INFO  SequentialTimeManagement - Ended: 2023-07-08 13:15:44
+2023-07-08 13:15:44,491 INFO  SequentialTimeManagement - Duration: 00h 00m 01.658s (RTF: 84.00)
+2023-07-08 13:15:44,491 INFO  SequentialTimeManagement - 
+2023-07-08 13:15:44,491 INFO  SequentialTimeManagement - Simulation finished: 101

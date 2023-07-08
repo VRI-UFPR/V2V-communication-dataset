@@ -1,0 +1,29 @@
+2023-07-08 13:12:16,217 INFO  SnsAmbassador - Init simulation with startTime=0, endTime=140000000000
+2023-07-08 13:12:16,231 INFO  SnsAmbassador - Initialized SNS
+2023-07-08 13:12:17,407 INFO  SnsAmbassador - Added Vehicle id=veh_0 position=GeoPoint{lat=52.512138,lon=13.317319,alt=0.00} @time=2.000,000,000 s
+2023-07-08 13:12:17,407 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_0 @time=2.000,000,000 s
+2023-07-08 13:12:17,438 INFO  SnsAmbassador - Added Vehicle id=veh_1 position=GeoPoint{lat=52.512138,lon=13.317319,alt=0.00} @time=8.000,000,000 s
+2023-07-08 13:12:17,438 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_1 @time=8.000,000,000 s
+2023-07-08 13:12:17,533 WARN  SnsAmbassador - Received unknown interaction=VehicleRegistration @time=59.000,900,000 s
+2023-07-08 13:12:17,533 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_2 @time=0.000,000,000 s
+2023-07-08 13:12:17,536 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_2 @time=59.000,900,000 s
+2023-07-08 13:12:17,538 WARN  SnsAmbassador - Received unknown interaction=VehicleRegistration @time=59.101,900,000 s
+2023-07-08 13:12:17,538 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_3 @time=0.000,000,000 s
+2023-07-08 13:12:17,540 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_3 @time=59.101,900,000 s
+2023-07-08 13:12:17,541 WARN  SnsAmbassador - Received unknown interaction=VehicleRegistration @time=59.201,400,000 s
+2023-07-08 13:12:17,541 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_4 @time=0.000,000,000 s
+2023-07-08 13:12:17,542 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_4 @time=59.201,400,000 s
+2023-07-08 13:12:17,543 WARN  SnsAmbassador - Received unknown interaction=VehicleRegistration @time=59.301,400,000 s
+2023-07-08 13:12:17,543 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_5 @time=0.000,000,000 s
+2023-07-08 13:12:17,544 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_5 @time=59.301,400,000 s
+2023-07-08 13:12:17,544 WARN  SnsAmbassador - Received unknown interaction=VehicleRegistration @time=59.400,900,000 s
+2023-07-08 13:12:17,544 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_6 @time=0.000,000,000 s
+2023-07-08 13:12:17,545 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_6 @time=59.400,900,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_4 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_5 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_2 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_3 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_0 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_1 @time=140.000,000,000 s
+2023-07-08 13:12:17,773 INFO  SnsAmbassador - Removed Node id=veh_6 @time=140.000,000,000 s
+2023-07-08 13:12:17,791 INFO  SnsAmbassador - Finished simulation

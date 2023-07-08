@@ -1,0 +1,7 @@
+2023-07-08 13:13:59,922 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_0 at time 2.000,000,000 s
+2023-07-08 13:13:59,953 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_1 at time 8.000,000,000 s
+2023-07-08 13:14:00,051 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_2 at time 59.000,900,000 s
+2023-07-08 13:14:00,052 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_3 at time 59.000,900,000 s
+2023-07-08 13:14:00,058 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_4 at time 59.102,400,000 s
+2023-07-08 13:14:00,058 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_5 at time 59.102,400,000 s
+2023-07-08 13:14:00,064 INFO  EnvironmentAmbassador - Registered for sensor information: id=veh_6 at time 59.201,900,000 s

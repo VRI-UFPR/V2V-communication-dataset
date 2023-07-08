@@ -1,0 +1,9 @@
+2023-07-08 13:10:58,639 INFO  SnsAmbassador - Init simulation with startTime=0, endTime=140000000000
+2023-07-08 13:10:58,655 INFO  SnsAmbassador - Initialized SNS
+2023-07-08 13:10:59,812 INFO  SnsAmbassador - Added Vehicle id=veh_0 position=GeoPoint{lat=52.512138,lon=13.317319,alt=0.00} @time=2.000,000,000 s
+2023-07-08 13:10:59,812 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_0 @time=2.000,000,000 s
+2023-07-08 13:10:59,835 INFO  SnsAmbassador - Added Vehicle id=veh_1 position=GeoPoint{lat=52.512138,lon=13.317319,alt=0.00} @time=8.000,000,000 s
+2023-07-08 13:10:59,835 INFO  SnsAmbassador - Radio configured in mode SINGLE with communication radius 50.0 for node id=veh_1 @time=8.000,000,000 s
+2023-07-08 13:11:00,091 INFO  SnsAmbassador - Removed Node id=veh_0 @time=140.000,000,000 s
+2023-07-08 13:11:00,091 INFO  SnsAmbassador - Removed Node id=veh_1 @time=140.000,000,000 s
+2023-07-08 13:11:00,101 INFO  SnsAmbassador - Finished simulation
