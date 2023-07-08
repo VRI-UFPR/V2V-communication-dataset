@@ -3,8 +3,17 @@ Ideia inicial de como funcionaria o dataset das simulações de ataque a comunic
 
 Os ataques simulados no dataset sao de forged location e sybil attack, ao mesmo tempo.
 
-### ATAQUES
+### ORGANIZAÇÃO DO ATAQUE
+
+Para a realização do ataque em primeiro momento o atacante cria 2n + 1 nós dummy na rede, onde n é o número de veículos conectados a rede.
+
+O atacante se utiliza desses nós previamente criados para forjar a localização de veículos.
+
+Por meio desses nós é possivel executar o sybil attack, pois os outros veículos vêem a rede com mais nós do que realmente exitem, e além disso o há também o ataque de forge location, pois os nós criados tem localização e movimentação definida pelo atacante.
+
+### TIPOS DE ATAQUE SIMULADOS
 Atualmente, possuo 6 diferente simulações, sendo elas:
+
     - NO_ATTACK: simulação da comunicação V2V como deveria ser, sem nenhum agente malicioso.
 
     - EUCLIDIAN_DISTANCE: Calcula a distancia do carro alvo, para o carro do atacante e envia a mensagem como se estivesse a exata mesma distância, porém a sua frente.
